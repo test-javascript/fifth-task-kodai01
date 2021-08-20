@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "npm install",
+      "run": "num test",
+      "input": "hogehoge",
+      "output": "foo hogehoge",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
